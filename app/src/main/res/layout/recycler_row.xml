@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="5dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/songPic"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_margin="5dp">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/songText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="textView"
+            android:layout_margin="5dp"
+            android:textSize="22dp"
+
+            ></TextView>
+
+
+        <TextView
+           android:id="@+id/singerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:text="singer"
+            android:layout_marginStart="5dp"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
